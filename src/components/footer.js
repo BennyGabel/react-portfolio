@@ -1,8 +1,8 @@
 // Create function
 const Footer = () => {
     return (
-        <div>
-            footer
+        <div className="footer">
+            footer changed . it bother so much
         </div>
     )
 }

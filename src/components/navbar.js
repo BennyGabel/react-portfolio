@@ -1,13 +1,18 @@
 import Portfolio from "../pages/portfolio"
 
 // Create function
-const Navbar = () => {
+// props are parameters   1 to infinite....... all parameters are accessed props.(variable)   i.e. promps.set_screen
+const Navbar = (props) => {
+    const change_screen = (event) => {
+        // console.dir(event.target)
+        props.set_screen(event.target.textContent)
+    }
     return (
         <div>
-            <ul>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Portfolio</a></li>
-                <li><a href='#'>Contact</a></li>
+            <ul className="menuoptions">
+                <li><a href='#' onClick={change_screen}>About</a></li>
+                <li><a href='#' onClick={change_screen}>Portfolio</a></li>
+                <li><a href='#' onClick={change_screen}>Contact</a></li>
             </ul>
 
         </div>

@@ -10,16 +10,17 @@ import { useState } from 'react';
 
 
 function App() {
-  const {portfolio, setPortfolio} = useState('about')      // ES6
+  // const {portfolio, setPortfolio} = useState('About')      // ES6
+  const [portfolio, setPortfolio] = useState('About')      // ES6
   const Render = () => {      
     console.log(portfolio)                             // ES6
     switch (portfolio) {
-      case 'about':
+      case 'About':
         console.log('About')
         return <About/>
-      case 'contact':
+      case 'Contact':
         return <Contact/>
-      case 'portfolio':
+      case 'Portfolio':
         return <Portfolio/>
       default:
         return null
@@ -30,7 +31,8 @@ function App() {
   return (
     <div className="App">
        {/* <   />                     /> self closing */}
-       <Navbar/>    
+       <Navbar show_screen={portfolio} set_screen={setPortfolio}/>    
+
        <Render/>
        <Footer/>
 

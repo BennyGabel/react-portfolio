@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+
+}
+
+.menuoptions{
+  display: flex;
+}
+
+.menuoptions li{
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin-left: 15%;
+  margin-right: 15%;
+  list-style-type: none;
+
+}
