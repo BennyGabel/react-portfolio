@@ -3,6 +3,8 @@ const About = () => {
     return (
         <div>
             about
+            {/* src={require(`../assets/large/${category}/${index}.jpg`).default} */}
+            src={require(`../assets/img/bennygabel.jpg`).default}
         </div>
     )
 }
