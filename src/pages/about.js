@@ -1,10 +1,12 @@
+import React, { Component }  from 'react';
+import profile from './BennyGabel'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 // Create function
 const About = () => {
     return (
         <div>
-            about
+            <img src={profile} alt="Benny Gabel"/>
         </div>
     )
 }

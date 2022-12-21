@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import Portfolio from "../pages/portfolio"
 
 // Create function

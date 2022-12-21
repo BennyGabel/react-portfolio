@@ -1,3 +1,5 @@
+import React, { Component }  from 'react';
+
 // Create function
 const Portfolio = () => {
     return (
