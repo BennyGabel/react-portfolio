@@ -4,7 +4,7 @@ import React, { Component }  from 'react';
 const Footer = () => {
     return (
         <div className="footer">
-            footer changed . it bother so much
+            footer changed . Lets get it to WORK!!
         </div>
     )
 }
