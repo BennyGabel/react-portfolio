@@ -3,6 +3,7 @@ import React, { Component }  from 'react';
 import '../index.css';
 import profile from '../img/bennygabel.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { CarouselItem } from 'react-bootstrap';
 
 
 // import * as React from 'react'
@@ -23,10 +24,25 @@ const About = () => {
             <div id="content">
                 {/* Hi!  <br>
 My name is Benny Gabel */}
-            
-            <text>Hi!  </text>
-            <text>This is <strong style={{ color:"#009900"}}> Benny Gabel </strong></text>
-            
+            <table>
+                <column id='column'></column>
+                <column id='column'>
+            <text>
+                Hi!  <br />
+                This is <strong style={{ color:"#009900"}}> Benny Gabel </strong> <br />
+                <br />
+                My passion for computers started in my childhood.<br />
+                Working with databases from early 90s.<br />
+                Was part of the group who created the <br />
+                credit card department in Banco Wiese,<br />
+                Lima Peru.
+            </text>
+            </column>
+
+            <column id='column'></column>
+            <column id='column'></column>
+
+            </table>
 
 {/* Adding/learning View & Text */}
 {/* <View>
