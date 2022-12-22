@@ -6,10 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { CarouselItem } from 'react-bootstrap';
 
 
-// import * as React from 'react'
-// Attempted to use 
-// import { View, StyleSheet, Text } from 'reac'
-
 // Create function
 const About = () => {
     return (
@@ -22,9 +18,6 @@ const About = () => {
             </div>
 
             <div id="content">
-            {/* <table>
-                <column id='column'><text>sss</text></column>
-                <column id='column'> */}
             <text>
                 Hi!  <br />
                 This is <strong style={{ color:"#009900"}}> Benny Gabel </strong> <br />
@@ -35,24 +28,6 @@ const About = () => {
                 credit card department in Banco Wiese,<br />
                 Lima Peru.
             </text>
-            {/* </column>
-
-            <column id='column'></column>
-            <column id='column'></column>
-
-            </table> */}
-
-{/* Adding/learning View & Text */}
-{/* <View>
-    <Text>
-        `Hi!
-        My name is Benny Gabel
-        Am learning and preparing myself to become a
-        WEB DEVELOPER
-        `
-    </Text>
-</View> */}
-
 
             </div>
 <br />
