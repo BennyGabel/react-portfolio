@@ -21,7 +21,7 @@ code {
 }
 
 #content {
-  text-align: left;
+  /* text-align: left; */
   font-size: small;
   font-weight: normal;
   /* font-size:30; */

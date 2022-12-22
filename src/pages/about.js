@@ -15,18 +15,16 @@ const About = () => {
     return (
         <div>
             <div>
-                <img src={profile} alt="Benny Gabel" style={{ width: '400px', height: '400px'}}/> 
+                <img src={profile} alt="Benny Gabel" style={{ width: '300px', height: '300px'}}/> 
             </div>
             <div id="subtitle">
                 About Me
             </div>
 
             <div id="content">
-                {/* Hi!  <br>
-My name is Benny Gabel */}
-            <table>
-                <column id='column'></column>
-                <column id='column'>
+            {/* <table>
+                <column id='column'><text>sss</text></column>
+                <column id='column'> */}
             <text>
                 Hi!  <br />
                 This is <strong style={{ color:"#009900"}}> Benny Gabel </strong> <br />
@@ -37,12 +35,12 @@ My name is Benny Gabel */}
                 credit card department in Banco Wiese,<br />
                 Lima Peru.
             </text>
-            </column>
+            {/* </column>
 
             <column id='column'></column>
             <column id='column'></column>
 
-            </table>
+            </table> */}
 
 {/* Adding/learning View & Text */}
 {/* <View>
@@ -56,6 +54,15 @@ My name is Benny Gabel */}
 </View> */}
 
 
+            </div>
+<br />
+            <div id="subtitle">
+                About my experience
+            </div>
+            <div id="content">
+            I am working as a software consultant/developer <br />
+            since 1999, on accounting systems <br />
+            <text style={{ color:"red" }}>to be continue..</text>
             </div>
         </div>
 
