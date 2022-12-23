@@ -47,7 +47,8 @@ const Portfolio = () => {
 
 
         <div className="flex-row">
-            
+            {repos[1].name}
+
         {repos.name}
         
 
