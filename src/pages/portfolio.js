@@ -38,6 +38,8 @@ const Portfolio = () => {
     // Not DONE anything yet  -- UNTIL HERE
       
 
+    // let curImage = "/../img/"+{repos[0].name}+".jpg"
+    // let curImage = "/../img/1.jpg"
 
     return (
         <div>
@@ -47,9 +49,21 @@ const Portfolio = () => {
 
 
         <div className="flex-row">
-            {repos[1].name}
+            <div className='card'>
+                {repos[0].name} <br/>
+                {/* <img src={`curImage`} /> */}
+                <img src='/../img/2.jpg' />
 
-        {repos.name}
+                {repos[0].ch+'.jpg'}
+            </div>
+
+            <div className='card'>
+                {repos[1].name}
+            </div>
+            <div className='card'>
+                {repos[2].name}
+            </div>            
+        {/* {repos.name} */}
         
 
         </div>
