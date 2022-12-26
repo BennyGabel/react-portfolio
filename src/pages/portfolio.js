@@ -8,6 +8,7 @@ import './portfolio.css';
 
 // Create function
 const Portfolio = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const [repos] = useState([
         {ch:2, name:'portfolio', image: './2.jpg', description: 'first portfolio using HTML', github: 'https://github.com/BennyGabel/text_editor_19', deployed: 'https://text19editor.herokuapp.com/'},
         {ch:3, name:'PasswordGenerator', image: './3.jpg', description: 'Given a user criteria, including amount of characters, generates a password', github: 'https://github.com/BennyGabel/PasswordGenerator', deployed: 'https://bennygabel.github.io/PasswordGenerator/'},
@@ -70,14 +71,14 @@ const Portfolio = () => {
 
 
             {
-                // challenges && challenges.map((item) => 
+                
                 <div className="flex-row">
                     {/* repos && repos.map((item) =>  */}
                     {repos && repos.map((item) =>
                         <div key={item.ch}>
                             <div className='card'>
                                 <div key={item.ch}>
-                                    <img src={item.image} className="logo" alt=""/>
+                                    <img style={{ width: 250, height:250 }} src={item.image} className="logo" alt=""/>
                                     {item.image}
                                     {/* console.log(item.image); */}
                                     {item.ch}
