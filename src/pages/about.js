@@ -2,8 +2,8 @@ import React, { Component }  from 'react';
 
 import '../index.css';
 import profile from '../img/bennygabel.jpg'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { CarouselItem } from 'react-bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import { CarouselItem } from 'react-bootstrap';
 
 
 // Create function

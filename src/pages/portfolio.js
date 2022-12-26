@@ -1,5 +1,6 @@
 import React, { Component, useState }  from 'react';
 import './portfolio.css';
+import { capitalizeFirstLetter, capitalizeAllLetters } from '../utils/helpers';
 // import profile from '../img/bennygabel.jpg'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import { CarouselItem } from 'react-bootstrap';
@@ -46,10 +47,6 @@ const Portfolio = () => {
 
     return (
         <div>
-<p>
-            portfolio
-</p>
-
 
         {/* <div className="flex-row">
             <div className='card'>
@@ -81,10 +78,15 @@ const Portfolio = () => {
                         <div key={item.ch}>
                             <div className='card'>
                                 <div>
-                                    {item.name}   <br/>
+                                    <div className='bold'>
+                                    {capitalizeAllLetters(item.name)}
+                                    </div> 
+                                    {/* {capitalizeFirstLetter(item.github)} <br/>
+                                    {capitalizeFirstLetter(item.deployed)} */}
                                     {item.github} <br/>
                                     {item.deployed}
-                                    
+
+
                                     {/* {item.description}
                                     {item.github}
                                     {item.deployed} */}
