@@ -69,17 +69,29 @@ const Portfolio = () => {
 
         </div> */}
 
+{/* {isModalOpen && ( 
+    {item.name}
+
+)} */}
 
             {
-                
                 <div className="flex-row">
                     {/* repos && repos.map((item) =>  */}
                     {repos && repos.map((item) =>
                         <div key={item.ch}>
                             <div className='card'>
+                                <div>
+                                    {item.name}   <br/>
+                                    {item.github} <br/>
+                                    {item.deployed}
+                                    
+                                    {/* {item.description}
+                                    {item.github}
+                                    {item.deployed} */}
+                                </div>
                                 <div key={item.ch}>
                                     <img style={{ width: 250, height:250 }} src={item.image} className="logo" alt=""/>
-                                    {item.image}
+                                    
                                     {/* console.log(item.image); */}
                                     {item.ch}
                                 </div>
@@ -87,9 +99,8 @@ const Portfolio = () => {
                         </div>
                     )}
                 </div>
-
-                
             }
+
             </div>
 )
         }
